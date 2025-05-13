@@ -9,9 +9,9 @@ const reasons = [
 
 export default function WhyChooseUs() {
     return (
-        <section className="py-20 px-4">
+        <section className="dark:bg-gray-900 py-20 px-4 dark:text-white">
             <motion.h3
-                className="text-2xl font-bold text-center mb-10"
+                className="text-4xl font-bold text-center mb-10"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -30,7 +30,7 @@ export default function WhyChooseUs() {
                         viewport={{ once: true }}
                         transition={{ duration: 0.5, delay: idx * 0.15 }}
                     >
-                        <h4 className="font-semibold">{reason}</h4>
+                        <h4>{reason}</h4>
                     </motion.div>
                 ))}
             </div>

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const ContactForm = () => {
     return (
-        <section className="contact-form py-16 bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-white">
+        <section className="contact-form py-16 dark:bg-gray-900 text-gray-900 dark:text-white">
             <div className="container mx-auto text-center">
                 <motion.h2
                     className="text-4xl font-semibold mb-8"
