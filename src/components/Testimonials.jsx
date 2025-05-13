@@ -30,6 +30,12 @@ const Testimonials = () => {
                     </div>
                     <div className="testimonial p-6 bg-white dark:bg-gray-800 shadow-md rounded-lg max-w-md mx-auto">
                         <p className="text-gray-800 dark:text-gray-300">
+                            "Clean, minimal look! Good UX."
+                            <br />– Sansita Jain
+                        </p>
+                    </div>
+                    <div className="testimonial p-6 bg-white dark:bg-gray-800 shadow-md rounded-lg max-w-md mx-auto">
+                        <p className="text-gray-800 dark:text-gray-300">
                             "Easy to use and effective!"
                             <br />– Jenny
                         </p>
